@@ -6,6 +6,7 @@ import '../../common/Style.css';
 import { setLike } from '../../redux/slices/Favourite';
 import { useAppDispatch, useAppSelector } from '../../hooks';
 import { movieType } from '../../utilities/type';
+import {setDes} from '../../redux/slices/Favourite';
 const ComponentTrending: React.FC = () => {
     const dispatch = useAppDispatch();
     const movies = useAppSelector(state => state.like);
@@ -19,7 +20,7 @@ const ComponentTrending: React.FC = () => {
                 {
                     movies.movies.map((movie: movieType) => {
                         return (
-                            <div key={movie.id} className=' flex flex-col '>
+                            <div key={movie.id} onClick={()=>dispatch(setDes(movie.id))}  className=' flex flex-col '>
                                 <div className=" relative w-[300px]  rounded-[23px]  text-white " >
                                     <img className="w-[300px]" src={movie.img} />
 

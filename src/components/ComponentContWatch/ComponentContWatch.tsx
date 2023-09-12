@@ -1,10 +1,10 @@
 import React,{useState}from 'react';
-import { movieType } from '../../utilities/type';
+import { watchType } from '../../utilities/type';
 import { continueWatching } from '../../utilities/Contants/continueWatching';
 import { heart1,heart2 } from '../../assets/index';
 import '../../common/Style.css';
 const ComponentContWatch= () => {
-    const [Movies, setMovie] = useState<movieType[]>(continueWatching);
+    const [Movies, setMovie] = useState<watchType[]>(continueWatching);
     const setfavToggle = (id: number) => {
         setMovie((prevdata) =>
          prevdata.map((movie) =>

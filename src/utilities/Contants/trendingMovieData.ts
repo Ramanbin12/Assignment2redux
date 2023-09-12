@@ -7,7 +7,13 @@ export  const trendingMovieData:movieType[]=[
         releaseDate:2022,
         movieType:'Action comedy',
         img:movie1,
-        favouritemovie:false
+        favouritemovie:false,
+        numOfHours:2,
+        numOfMin:10,
+        description:'The movie follows the lives of a wealthy family, the Johnsons, who appear to have it all \
+        a grand mansion, luxurious cars, and expensive designer clothing. However, behind the facade of their lavish\
+        lifestyle, there are deep-seated tensions and secrets that threaten to tear the family apart.',
+        Ratings:7.5
     },
     {
         id:2,
@@ -15,7 +21,13 @@ export  const trendingMovieData:movieType[]=[
         releaseDate:2022,
         movieType:'Sci-fi',
         img:movie2,
-        favouritemovie:false
+        favouritemovie:false,
+        numOfHours:2,
+        numOfMin:10,
+        description:'The movie follows the lives of a wealthy family, the Johnsons, who appear to have it all \
+        a grand mansion, luxurious cars, and expensive designer clothing. However, behind the facade of their lavish\
+        lifestyle, there are deep-seated tensions and secrets that threaten to tear the family apart.',
+        Ratings:7.5
 
     },
     {
@@ -24,7 +36,13 @@ export  const trendingMovieData:movieType[]=[
         releaseDate:2023,
         movieType:'Documentary series',
         img:movie3,
-        favouritemovie:false
+        favouritemovie:false,
+        numOfHours:2,
+        numOfMin:10,
+        description:'The movie follows the lives of a wealthy family, the Johnsons, who appear to have it all \
+        a grand mansion, luxurious cars, and expensive designer clothing. However, behind the facade of their lavish\
+        lifestyle, there are deep-seated tensions and secrets that threaten to tear the family apart.',
+        Ratings:7.5
 
     },
     {
@@ -33,7 +51,13 @@ export  const trendingMovieData:movieType[]=[
         releaseDate:2021,
         movieType:' Drama',
         img:movie4,
-        favouritemovie:false
+        favouritemovie:false,
+        numOfHours:2,
+        numOfMin:10,
+        description:'The movie follows the lives of a wealthy family, the Johnsons, who appear to have it all \
+        a grand mansion, luxurious cars, and expensive designer clothing. However, behind the facade of their lavish\
+        lifestyle, there are deep-seated tensions and secrets that threaten to tear the family apart.',
+        Ratings:7.5
 
     },
     {
@@ -42,7 +66,13 @@ export  const trendingMovieData:movieType[]=[
         releaseDate:2022,
         movieType:'Action comedy',
         img:movie1,
-        favouritemovie:false
+        favouritemovie:false,
+        numOfHours:2,
+        numOfMin:10,
+        description:'The movie follows the lives of a wealthy family, the Johnsons, who appear to have it all \
+        a grand mansion, luxurious cars, and expensive designer clothing. However, behind the facade of their lavish\
+        lifestyle, there are deep-seated tensions and secrets that threaten to tear the family apart.',
+        Ratings:7.5
     },
     {
         id:6,
@@ -50,7 +80,13 @@ export  const trendingMovieData:movieType[]=[
         releaseDate:2022,
         movieType:'Sci-fi',
         img:movie2,
-        favouritemovie:false
+        favouritemovie:false,
+        numOfHours:2,
+        numOfMin:10,
+        description:'The movie follows the lives of a wealthy family, the Johnsons, who appear to have it all \
+        a grand mansion, luxurious cars, and expensive designer clothing. However, behind the facade of their lavish\
+        lifestyle, there are deep-seated tensions and secrets that threaten to tear the family apart.',
+        Ratings:7.5
 
     },
     {
@@ -59,7 +95,13 @@ export  const trendingMovieData:movieType[]=[
         releaseDate:2023,
         movieType:'Documentary series',
         img:movie3,
-        favouritemovie:false
+        favouritemovie:false,
+        numOfHours:2,
+        numOfMin:10,
+        description:'The movie follows the lives of a wealthy family, the Johnsons, who appear to have it all \
+        a grand mansion, luxurious cars, and expensive designer clothing. However, behind the facade of their lavish\
+        lifestyle, there are deep-seated tensions and secrets that threaten to tear the family apart.',
+        Ratings:7.5
 
     },
     {
@@ -68,7 +110,13 @@ export  const trendingMovieData:movieType[]=[
         releaseDate:2021,
         movieType:' Drama',
         img:movie4,        
-        favouritemovie:false
+        favouritemovie:false,
+        numOfHours:2,
+        numOfMin:10,
+        description:'The movie follows the lives of a wealthy family, the Johnsons, who appear to have it all \
+        a grand mansion, luxurious cars, and expensive designer clothing. However, behind the facade of their lavish\
+        lifestyle, there are deep-seated tensions and secrets that threaten to tear the family apart.',
+        Ratings:7.5
 
     },
     

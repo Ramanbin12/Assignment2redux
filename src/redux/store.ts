@@ -4,6 +4,6 @@ import Favourite from '../redux/slices/Favourite';
 export const store=configureStore({
     reducer:{
         navbar:NavbarSlice,
-        like:Favourite
+        like:Favourite,
     }
 });

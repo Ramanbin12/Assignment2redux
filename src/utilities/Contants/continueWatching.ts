@@ -1,6 +1,6 @@
 import {cw1,cw2,cw3} from '../../assets/index';
-import { movieType } from '../type';
-export const continueWatching:movieType[]=[
+import { watchType } from '../type';
+export const continueWatching:watchType[]=[
     {
         id:1,
         moviename:'Tokyo Train',
