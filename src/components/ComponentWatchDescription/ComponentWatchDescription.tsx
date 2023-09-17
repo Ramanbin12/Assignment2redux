@@ -7,9 +7,9 @@ const ComponentWatchDescription: React.FC = () => {
   console.log('ghhhh', user);
   return (
     user ? (
-      <div className=' flex flex-col mt-4 lg:flex-row text-white justify-between'>
-        <div className=""><img className='auto' src={user.img} /></div>
-        <div className='flex  w-[70%] justify-center'>
+      <div className=' flex  flex-col mt-4 lg:flex-row text-white justify-between'>
+        <div className=""><img className='w-[500px] h-[400px]' src={user.img} /></div>
+        <div className='flex  w-[63%] lg:w-[70%] justify-center'>
           <div className='space-y-4  lg:w-[80%] flex flex-col justify-center'>
             <div className='flex justify-between'>
               <h1 className="text-3xl lg:text-5xl font-poppins" >{user.moviename}</h1>
